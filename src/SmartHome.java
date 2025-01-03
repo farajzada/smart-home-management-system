@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class SmartHome {
+public class SmartHome implements Manageable{
     private List<User> users;
     private List<Device> devices;
 
