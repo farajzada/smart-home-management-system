@@ -3,12 +3,14 @@ public class Camera extends Device {
         super(id, name, status, deviceType);
     }
 
+    @Override
     public void turnOn() {
-        System.out.println("Turning on camera");
+        System.out.println("Camera (ID: " + getId() + ") is now ON and recording.");
     }
 
+    @Override
     public void turnOff() {
-        System.out.println("Turning off camera");
+        System.out.println("Camera (ID: " + getId() + ") is now OFF and stopped recording.");
     }
 
     public void startRecording() {
