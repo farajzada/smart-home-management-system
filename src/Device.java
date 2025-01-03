@@ -19,6 +19,7 @@ public class Device {
         this.deviceType = deviceType;
     }
 
+
     public void turnOn(){};
     public void turnOff(){};
 
@@ -32,5 +33,9 @@ public class Device {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getId() {
+        return id;
     }
 }
