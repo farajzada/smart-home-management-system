@@ -1,0 +1,3 @@
+The "Smart Home Management System" project involves developing a smart home management system to apply students' knowledge of Java programming and object-oriented programming (OOP).
+The project will include various classes, methods, enums, and other OOP concepts.
+This system will enable users to manage different devices (such as lights, thermostats, cameras, and doorbells) within a smart home and perform related operations.
