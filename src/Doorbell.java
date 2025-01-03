@@ -3,12 +3,14 @@ public class Doorbell extends Device {
         super(id, name, status, deviceType);
     }
 
+    @Override
     public void turnOn() {
-        System.out.println("Doorbell turned on");
+        System.out.println("Doorbell (ID: " + getId() + ") is now ON.");
     }
 
+    @Override
     public void turnOff() {
-        System.out.println("Doorbell turned off");
+        System.out.println("Doorbell (ID: " + getId() + ") is now OFF.");
     }
 
     public void ring() {
