@@ -1,4 +1,4 @@
-public class Device {
+public abstract class Device {
     public enum DeviceType {
         LIGHT,
         THERMOSTAT,
@@ -20,15 +20,10 @@ public class Device {
     }
 
 
-    public void turnOn() {
-    }
+    public abstract void turnOn();
 
-    ;
+    public abstract void turnOff();
 
-    public void turnOff() {
-    }
-
-    ;
 
     public boolean getStatus() {
         return status;
