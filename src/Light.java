@@ -4,11 +4,13 @@ public class Light extends Device {
         super(id, name, status, deviceType);
     }
 
+    @Override
     public void turnOn() {
-        System.out.println("Light turned on");
+        System.out.println("Light (ID: " + getId() + ") is now ON.");
     }
 
+    @Override
     public void turnOff() {
-        System.out.println("Light turned off");
+        System.out.println("Light (ID: " + getId() + ") is now OFF.");
     }
 }
