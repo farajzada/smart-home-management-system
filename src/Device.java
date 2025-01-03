@@ -20,10 +20,17 @@ public class Device {
     }
 
 
-    public void turnOn(){};
-    public void turnOff(){};
+    public void turnOn() {
+    }
 
-    public boolean getStatus(){
+    ;
+
+    public void turnOff() {
+    }
+
+    ;
+
+    public boolean getStatus() {
         return status;
     }
 

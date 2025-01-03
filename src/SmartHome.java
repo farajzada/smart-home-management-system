@@ -11,16 +11,27 @@ public class SmartHome {
 
     public void addUser(User user) {
         users.add(user);
-    };
+    }
+
+
+
     public void removeUser(User user) {
         users.remove(user);
-    };
+    }
+
+
+
     public void addDevice(Device device) {
         devices.add(device);
-    };
+    }
+
+
+
     public void removeDevice(Device device) {
         devices.remove(device);
-    };
+    }
+
+
 
     public Device getDevice(int id) {
         for (Device device : devices) {

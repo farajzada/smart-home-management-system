@@ -11,9 +11,20 @@ public class User {
         this.password = password;
     }
 
-    public void register() {};
-    public void login() {};
-    public void logout() {};
+    public void register() {
+    }
+
+    ;
+
+    public void login() {
+    }
+
+    ;
+
+    public void logout() {
+    }
+
+    ;
 
     public String getFirstName() {
         return firstName;
