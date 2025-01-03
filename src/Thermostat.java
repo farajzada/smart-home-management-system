@@ -3,12 +3,14 @@ public class Thermostat extends Device {
         super(id, name, status, deviceType);
     }
 
+    @Override
     public void turnOn() {
-        System.out.println("Thermostat is on");
+        System.out.println("Thermostat (ID: " + getId() + ") is now ON.");
     }
 
+    @Override
     public void turnOff() {
-        System.out.println("Thermostat is off");
+        System.out.println("Thermostat (ID: " + getId() + ") is now OFF.");
     }
 
     public void setTemperature(int temperature) {
