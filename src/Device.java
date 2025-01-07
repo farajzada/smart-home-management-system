@@ -12,6 +12,8 @@ public abstract class Device {
     private DeviceType deviceType;
 
 
+
+
     public Device(int id, String name, boolean status, DeviceType deviceType) {
         this.id = id;
         this.name = name;
